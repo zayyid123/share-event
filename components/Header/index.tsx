@@ -6,7 +6,7 @@ export default function Header() {
         <>
             <Navbar bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                    <Navbar.Brand href="#home">SME</Navbar.Brand>
                     <Nav className="me-auto">
                         <Link href='/'><a className="nav-link">Home</a></Link>
                         <Link href='/about'><a className="nav-link">About</a></Link>
