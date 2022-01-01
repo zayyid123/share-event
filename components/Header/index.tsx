@@ -1,14 +1,18 @@
-import Link from "next/link"
+import { Navbar, Container, Nav } from "react-bootstrap";
+import Link from "next/link";
 
 export default function Header() {
     return (
         <>
-            <header>
-                <ul>
-                    <li><Link href='/'><a>Home</a></Link></li>
-                    <li><Link href='/about'><a>About</a></Link></li>
-                </ul>
-            </header>
+            <Navbar bg="dark" variant="dark">
+                <Container>
+                    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                    <Nav className="me-auto">
+                        <Link href='/'><a className="nav-link">Home</a></Link>
+                        <Link href='/about'><a className="nav-link">About</a></Link>
+                    </Nav>
+                </Container>
+            </Navbar>
         </>
     )
 }

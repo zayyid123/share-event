@@ -1,10 +1,11 @@
-import Header from "../components/Header"
+import Layout from "../components/Layout";
 
 export default function about() {
     return (
         <>
-            <Header />
-            <h1>About</h1>
+            <Layout>
+                <h1>About</h1>
+            </Layout>
         </>
     )
 }
