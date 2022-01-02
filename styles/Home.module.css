@@ -1,0 +1,63 @@
+.description {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.description-sme {
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+.description-sme h2 {
+    color: #17A471;
+}
+
+.description-sme h3 {
+    font-size: 60px;
+}
+
+.description-sme h3 span {
+    color: #5921F6;
+}
+
+.description-sme a {
+    background-color: #5921F6;
+    color: white;
+    text-decoration: none;
+    border: none;
+    margin: 3px;
+    border-radius: 50px;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid white;
+}
+
+.description-sme a:hover {
+    border: 1px solid #5921F6;
+    background-color: white;
+    color: #5921F6;
+}
+
+.myLottie {
+    max-width: 500px;
+}
+
+@media (max-width: 550px) {
+    .myLottie {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .description {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
