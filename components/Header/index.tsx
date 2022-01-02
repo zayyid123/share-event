@@ -17,15 +17,6 @@ export default function Header() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-            {/* <Navbar className={styles.navbar} bg="light" variant="light" >
-                <Container>
-                    <Navbar.Brand href="/"><img src="/logo/SME_FIT.png" width="64" /></Navbar.Brand>
-                    <Nav className="me-auto">
-                        <Link href='/'><a className="nav-link">Home</a></Link>
-                        <Link href='/about'><a className="nav-link">About</a></Link>
-                    </Nav>
-                </Container>
-            </Navbar> */}
         </>
     )
 }
